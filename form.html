@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Forms html">
+    <title>Forms</title>
+
+
+</head>
+
+<body>
+
+    <form action="URL">
+        <h1>Форма регистрации</h1>
+        <fieldset>
+            <legend>
+                Основная информация
+            </legend>
+
+            <div>
+                <label for="name">Имя*</label>
+                <input id="name" type="text" placeholder="Введите имя ">
+            </div>
+            <div>
+                <label for="surname">Фамилия*</label>
+                <input id="surname" type="text" placeholder="Введите вашу фамилию ">
+            </div>
+
+            <div>
+                <label for="nickname">Nickname*</label>
+                <input id="nickname" type="text" placeholder="Введите ваш nickname ">
+            </div>
+
+            <div>
+                <label for="date">Ваша дата рождения*</label>
+                <input id="date" type="date">
+            </div>
+
+            <div>
+                <label for="time">Ваша время рождения*</label>
+                <input id="time" type="time">
+            </div>
+
+
+            <div>
+                <label for="town">Ваш город*</label>
+                <input id="town" type="text" placeholder="Введите ваш город">
+            </div>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Почта и пароль
+            </legend>
+            <div><label for="email">Email*</label>
+
+                <input id="email" type="email" placeholder="Введите ваш email">
+            </div>
+
+            <div>
+                <label for="email2">Введите ваш запасной Email*</label>
+
+                <input id="email2" type="email" placeholder="Введите ваш email">
+            </div>
+
+            <div><label for="password1">Пароль*</label>
+
+                <input id="password1" type="password" placeholder="Введите ваш пароль">
+            </div>
+
+            <div> <label for="password">Подтвердите пароль*</label>
+
+                <input id="password" type="password" placeholder="Введите ваш пароль">
+            </div>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Контактная информация
+            </legend>
+            <div>
+                <label for="tel">Телефон*</label>
+                <input id="tel" type="tel" placeholder="Введите ваш телефон ">
+            </div>
+            <div>
+                <label for="tel2">Дополнительный телефон*</label>
+                <input id="tel2" type="tel" placeholder=" Введите ваш телефон">
+            </div>
+
+            <div>
+                <label for="skype">Skype*</label>
+                <input id="skype" type="tel" placeholder="Введите ваш Skype">
+            </div>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Уровни навыков
+            </legend>
+            <div>
+                <label for="htmlskill">HTML</label>
+                <input id="htmlskill" type="range" min="0" max="10" step="2">
+            </div>
+            <div>
+                <label for="cssskill">CSS</label>
+                <input id="cssskill" type="range" min="0" max="10" step="2">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                О себе
+            </legend>
+            <label for="about">Расскажите о себе</label>
+            <textarea name="aboutyouself" id="about" placeholder="Введите текст">
+
+
+         </textarea>
+
+            <p>Ваш пол</p>
+            <div>
+                <input type="radio" id="genderman" name="gender">
+                <label for="genderman">Мужской</label>
+            </div>
+            <div>
+                <input type="radio" id="genderwoman" name="gender">
+                <label for="genderwoman">Женский</label>
+            </div>
+            <div>
+
+                <input type="radio" id="genderother" name="gender">
+                <label for="genderother">Другой</label>
+            </div>
+
+
+            <div>
+                <label for="color">Ваш любимый цвет</label>
+
+
+                <input type="color" name="color" id="color">
+            </div>
+
+            <p>Вид занятости</p>
+            <div>
+                <input type="radio" id="fulltime" name="job">
+                <label for="fulltime">Работаю full time</label>
+            </div>
+
+            <div>
+
+                <input type="radio" id="parttime" name="job">
+                <label for="parttime">part time</label>
+            </div>
+            <div>
+
+                <input type="radio" id="freelancer" name="job">
+                <label for="freelancer">Freelance</label>
+            </div>
+            <div>
+
+                <input type="radio" id="nojob" name="job">
+                <label for="nojob">Временно не работаю</label>
+            </div>
+            <div>
+
+                <input type="radio" id="student" name="job">
+                <label for="student">Студент</label>
+            </div>
+            <p>Наличие домашних животных</p>
+            <div>
+                <input type="checkbox" id="cat" name="pets">
+                <label for="cat">Котик</label>
+            </div>
+            <div>
+
+                <input type="checkbox" id="dog" name="pets">
+                <label for="dog">Собачка</label>
+            </div>
+            <div>
+
+                <input type="checkbox" id="bird" name="pets">
+                <label for="bird">Птичка</label>
+            </div>
+            <div>
+
+                <input type="checkbox" id="fish" name="pets">
+                <label for="fish">Рыбка</label>
+            </div>
+            <div>
+
+                <input type="checkbox" id="some" name="pets">
+                <label for="some">Другое</label>
+            </div>
+            <label for="file">Добавить файл</label>
+            <div>
+                <input type="file" name="file" id="file">
+            </div>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Изучаемое направления
+            </legend>
+            <label for="choice">Выбирите направления из списка</label>
+            <div>
+                <select name="study" id="choice">
+                    <option value="">Front-end</option>
+
+                    <option value="">Front-end</option>
+
+
+                </select>
+            </div>
+            
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </p>
+    </form>
+</body>
+
+</html>
